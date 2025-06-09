@@ -12,3 +12,14 @@ header {
     background-color: #ffc6d0;
     padding: 1rem;
 }
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+}
+
+h1 {
+  color: #ff69b4;
+  margin-bottom: 0.5em;
+}
