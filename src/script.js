@@ -38,3 +38,8 @@ class UserSettings {
     this.autoRefresh = autoRefresh;
   }
 }
+
+const $ = (id) => document.getElementById(id),
+  breedSelect = $("breedSelect"), newCatBtn = $("newCatBtn"), catImage = $("catImage"),
+  catInfo = $("catInfo"), favBtn = $("favBtn"), favoritesContainer = $("favorites"),
+  breedSearch = $("breedSearch");
