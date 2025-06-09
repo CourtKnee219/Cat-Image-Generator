@@ -1,0 +1,1 @@
+let breeds = [], filteredBreeds = [], currentCatImage = null, favorites = [], categories = [];
