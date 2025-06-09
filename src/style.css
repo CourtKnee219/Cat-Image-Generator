@@ -68,3 +68,39 @@ h1 {
 #favBtn:hover {
   background-color: #e0559e;
 }
+
+.favorites-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.favorite-item {
+  position: relative;
+  border: 2px solid #ff69b4;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 120px;
+}
+
+.favorite-item img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.favorite-item button {
+  position: absolute;
+  top: 2px;
+  right: 4px;
+  background: #ff4444;
+  border: none;
+  color: white;
+  font-size: 0.9rem;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
